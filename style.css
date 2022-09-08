@@ -1,0 +1,49 @@
+.wrapper{
+    width: 1280px;
+    margin: 0px auto /*вирівнювання по центру;*/
+}
+.a_logo{
+    text-decoration: none;
+    color: #0B4654;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.0816px;
+    line-height: 45px;   
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 49px;
+    margin-right: 49px ;
+}
+.a_text{
+    display: flex;
+    text-decoration: none;
+    color: #0B4654;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Helvetica;
+}
+
+.mobile_nav{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .desctop_nav{
+        display: none;
+    }
+    .mobile_nav{
+        display: block;
+    }
+}
